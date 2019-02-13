@@ -21,6 +21,14 @@
 		42B85924151B95CD00B7CAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B85902151B95CD00B7CAB2 /* Foundation.framework */; };
 		42B8592C151B95CD00B7CAB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B8592A151B95CD00B7CAB2 /* InfoPlist.strings */; };
 		42B8592F151B95CD00B7CAB2 /* MidiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8592E151B95CD00B7CAB2 /* MidiTestTests.m */; };
+		42B8593B151B967300B7CAB2 /* AudioTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8593A151B967300B7CAB2 /* AudioTest.m */; };
+		42B85945151B988300B7CAB2 /* Gorts_Filters.SF2 in Resources */ = {isa = PBXBuildFile; fileRef = 42B85943151B988300B7CAB2 /* Gorts_Filters.SF2 */; };
+		42B85946151B988300B7CAB2 /* simpletest.mid in Resources */ = {isa = PBXBuildFile; fileRef = 42B85944151B988300B7CAB2 /* simpletest.mid */; };
+		C7161F032213724F0032C428 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7161F022213724F0032C428 /* Default-568h@2x.png */; };
+		C79F11B62213F540007B4ED0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79F11B32213F3EB007B4ED0 /* CoreAudio.framework */; };
+		C79F11B72213F554007B4ED0 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79F11B42213F3F2007B4ED0 /* CoreMIDI.framework */; };
+		C79F11B82213F55E007B4ED0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79F11B52213F3F6007B4ED0 /* AudioToolbox.framework */; };
+		C79F11BA2213F900007B4ED0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79F11B92213F900007B4ED0 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +46,31 @@
 		42B85900151B95CD00B7CAB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42B85902151B95CD00B7CAB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42B85904151B95CD00B7CAB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42B85908151B95CD00B7CAB2 /* MidiTest-Info.plist */ = {isa = PBXFileReference; path = "MidiTest-Info.plist"; sourceTree = "<group>"; };
+		42B85908151B95CD00B7CAB2 /* MidiTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MidiTest-Info.plist"; sourceTree = "<group>"; };
 		42B8590A151B95CD00B7CAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42B8590C151B95CD00B7CAB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42B8590E151B95CD00B7CAB2 /* MidiTest-Prefix.pch */ = {isa = PBXFileReference; path = "MidiTest-Prefix.pch"; sourceTree = "<group>"; };
-		42B8590F151B95CD00B7CAB2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42B8590E151B95CD00B7CAB2 /* MidiTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MidiTest-Prefix.pch"; sourceTree = "<group>"; };
+		42B8590F151B95CD00B7CAB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42B85910151B95CD00B7CAB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42B85913151B95CD00B7CAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		42B85916151B95CD00B7CAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		42B85918151B95CD00B7CAB2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		42B85918151B95CD00B7CAB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		42B85919151B95CD00B7CAB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42B85920151B95CD00B7CAB2 /* MidiTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B85921151B95CD00B7CAB2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		42B85929151B95CD00B7CAB2 /* MidiTestTests-Info.plist */ = {isa = PBXFileReference; path = "MidiTestTests-Info.plist"; sourceTree = "<group>"; };
+		42B85929151B95CD00B7CAB2 /* MidiTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MidiTestTests-Info.plist"; sourceTree = "<group>"; };
 		42B8592B151B95CD00B7CAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		42B8592D151B95CD00B7CAB2 /* MidiTestTests.h */ = {isa = PBXFileReference; path = MidiTestTests.h; sourceTree = "<group>"; };
+		42B8592D151B95CD00B7CAB2 /* MidiTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidiTestTests.h; sourceTree = "<group>"; };
 		42B8592E151B95CD00B7CAB2 /* MidiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiTestTests.m; sourceTree = "<group>"; };
+		42B85939151B967300B7CAB2 /* AudioTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTest.h; sourceTree = "<group>"; };
+		42B8593A151B967300B7CAB2 /* AudioTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTest.m; sourceTree = "<group>"; };
+		42B85943151B988300B7CAB2 /* Gorts_Filters.SF2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Gorts_Filters.SF2; path = MidiTest/Gorts_Filters.SF2; sourceTree = "<group>"; };
+		42B85944151B988300B7CAB2 /* simpletest.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = simpletest.mid; path = MidiTest/simpletest.mid; sourceTree = "<group>"; };
+		C7161F022213724F0032C428 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C79F11B32213F3EB007B4ED0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C79F11B42213F3F2007B4ED0 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		C79F11B52213F3F6007B4ED0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C79F11B92213F900007B4ED0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79F11B82213F55E007B4ED0 /* AudioToolbox.framework in Frameworks */,
+				C79F11B72213F554007B4ED0 /* CoreMIDI.framework in Frameworks */,
+				C79F11B62213F540007B4ED0 /* CoreAudio.framework in Frameworks */,
 				42B85901151B95CD00B7CAB2 /* UIKit.framework in Frameworks */,
 				42B85903151B95CD00B7CAB2 /* Foundation.framework in Frameworks */,
 				42B85905151B95CD00B7CAB2 /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +103,8 @@
 		42B858F1151B95CD00B7CAB2 = {
 			isa = PBXGroup;
 			children = (
+				C7161F022213724F0032C428 /* Default-568h@2x.png */,
+				42B85942151B986D00B7CAB2 /* Resources */,
 				42B85906151B95CD00B7CAB2 /* MidiTest */,
 				42B85927151B95CD00B7CAB2 /* MidiTestTests */,
 				42B858FF151B95CD00B7CAB2 /* Frameworks */,
@@ -102,6 +124,9 @@
 		42B858FF151B95CD00B7CAB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C79F11B52213F3F6007B4ED0 /* AudioToolbox.framework */,
+				C79F11B42213F3F2007B4ED0 /* CoreMIDI.framework */,
+				C79F11B32213F3EB007B4ED0 /* CoreAudio.framework */,
 				42B85900151B95CD00B7CAB2 /* UIKit.framework */,
 				42B85902151B95CD00B7CAB2 /* Foundation.framework */,
 				42B85904151B95CD00B7CAB2 /* CoreGraphics.framework */,
@@ -113,10 +138,12 @@
 		42B85906151B95CD00B7CAB2 /* MidiTest */ = {
 			isa = PBXGroup;
 			children = (
+				42B85938151B966300B7CAB2 /* classes */,
 				42B8590F151B95CD00B7CAB2 /* AppDelegate.h */,
 				42B85910151B95CD00B7CAB2 /* AppDelegate.m */,
 				42B85912151B95CD00B7CAB2 /* MainStoryboard_iPhone.storyboard */,
 				42B85915151B95CD00B7CAB2 /* MainStoryboard_iPad.storyboard */,
+				C79F11B92213F900007B4ED0 /* Launch Screen.storyboard */,
 				42B85918151B95CD00B7CAB2 /* ViewController.h */,
 				42B85919151B95CD00B7CAB2 /* ViewController.m */,
 				42B85907151B95CD00B7CAB2 /* Supporting Files */,
@@ -152,6 +179,24 @@
 				42B8592A151B95CD00B7CAB2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42B85938151B966300B7CAB2 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				42B85939151B967300B7CAB2 /* AudioTest.h */,
+				42B8593A151B967300B7CAB2 /* AudioTest.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		42B85942151B986D00B7CAB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42B85943151B988300B7CAB2 /* Gorts_Filters.SF2 */,
+				42B85944151B988300B7CAB2 /* simpletest.mid */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +244,18 @@
 		42B858F3151B95CD00B7CAB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Deluge;
+				TargetAttributes = {
+					42B858FB151B95CD00B7CAB2 = {
+						DevelopmentTeam = U2NS98MY5H;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = 42B858F6151B95CD00B7CAB2 /* Build configuration list for PBXProject "MidiTest" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -228,6 +283,10 @@
 				42B8590B151B95CD00B7CAB2 /* InfoPlist.strings in Resources */,
 				42B85914151B95CD00B7CAB2 /* MainStoryboard_iPhone.storyboard in Resources */,
 				42B85917151B95CD00B7CAB2 /* MainStoryboard_iPad.storyboard in Resources */,
+				42B85945151B988300B7CAB2 /* Gorts_Filters.SF2 in Resources */,
+				42B85946151B988300B7CAB2 /* simpletest.mid in Resources */,
+				C7161F032213724F0032C428 /* Default-568h@2x.png in Resources */,
+				C79F11BA2213F900007B4ED0 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +324,7 @@
 				42B8590D151B95CD00B7CAB2 /* main.m in Sources */,
 				42B85911151B95CD00B7CAB2 /* AppDelegate.m in Sources */,
 				42B8591A151B95CD00B7CAB2 /* ViewController.m in Sources */,
+				42B8593B151B967300B7CAB2 /* AudioTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,12 +386,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -339,10 +418,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -352,16 +435,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -372,9 +476,11 @@
 		42B85933151B95CD00B7CAB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = U2NS98MY5H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MidiTest/MidiTest-Prefix.pch";
 				INFOPLIST_FILE = "MidiTest/MidiTest-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cameronpalmer.MidiTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -383,9 +489,11 @@
 		42B85934151B95CD00B7CAB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = U2NS98MY5H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MidiTest/MidiTest-Prefix.pch";
 				INFOPLIST_FILE = "MidiTest/MidiTest-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cameronpalmer.MidiTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,6 +510,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MidiTest/MidiTest-Prefix.pch";
 				INFOPLIST_FILE = "MidiTestTests/MidiTestTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.deluge.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -419,6 +528,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MidiTest/MidiTest-Prefix.pch";
 				INFOPLIST_FILE = "MidiTestTests/MidiTestTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.deluge.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -444,6 +554,7 @@
 				42B85934151B95CD00B7CAB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42B85935151B95CD00B7CAB2 /* Build configuration list for PBXNativeTarget "MidiTestTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +563,7 @@
 				42B85937151B95CD00B7CAB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

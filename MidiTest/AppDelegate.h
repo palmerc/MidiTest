@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "AudioTest.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

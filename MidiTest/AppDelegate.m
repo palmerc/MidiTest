@@ -15,6 +15,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    AudioTest * at = [AudioTest audioTest];
+    [at midiTest];
+    
     return YES;
 }
 							
